@@ -10,7 +10,7 @@
 The project is to implement the Error Back-Propagation (EBP) training algorithm for a multi- layer perceptron (MLP) 4-2-4 encoder using MatLab. Intuitively the structure of the encoder is as shown below:
 
 <div align=center>
-    <img width="30%" src="http://gogo-static.yunxiangshijue.com/MLP.png"/>
+    <img width="30%" src="./figures/MLP.png"/>
 </div>
 
 - An input layer with 4 units.
@@ -37,7 +37,7 @@ Each unit has a sigmoid activation function. The task of the encoder is to map t
 Activation functions are used for a neural network to learn and make sense of some data complicated and Non-linear complex functional mappings between the inputs and response variables. There are several commonly used activation functions to fit different data types better, such as ***Sigmoid***, ***Tanh***, and ***ReLu*** etc. In this case, the sigmoid function would be applied.
 
 <div align=center>
-    <img width="38%" src="http://gogo-static.yunxiangshijue.com/Sigmoid.png"/>
+    <img width="38%" src="./figures/Sigmoid.png"/>
 </div>
 
 ### Total Error Calculation
@@ -50,7 +50,7 @@ A training set consists of
 The error 𝐸 is defined by:
 
 <div align=center>
-    <img width="40%" src="http://gogo-static.yunxiangshijue.com/total_error.png"/>
+    <img width="40%" src="./figures/total_error.png"/>
 </div>
 
 
@@ -64,14 +64,14 @@ Let the weights between input and hidden layer, hidden and output layer be two s
 The new weights between hidden and output layer are calculated by:
 
 <div align=center>
-    <img width="70%" src="http://gogo-static.yunxiangshijue.com/updateW2.png"/>
+    <img width="70%" src="./figures/updateW2.png"/>
 </div>
 
 #### Update W1 (the weights between input and hidden layer)
 The new weights between input and hidden layer are calculated by:
 
 <div align=center>
-    <img width="95%" src="http://gogo-static.yunxiangshijue.com/updateW1.png"/>
+    <img width="95%" src="./figures/updateW2.png"/>
 </div>
 
 
@@ -80,7 +80,7 @@ The new weights between input and hidden layer are calculated by:
 **Bias** is a constant which helps the model in a way that it can fit better for the given data. A bias unit is an ‘extra’ neuron which doesn’t have any incoming connections added to pre-output layer.
 
 <div align=center>
-    <img width="70%" src="http://gogo-static.yunxiangshijue.com/MLP_bias.png"/>
+    <img width="70%" src="./figures/MLP_bias.png"/>
 </div>
 
 ### Evaluation: Bias vs Non-bias
@@ -92,13 +92,13 @@ The MLP parameters are below:
 - Initial weights in two systems are equal
 
 <div align=center>
-    <img width="40%" src="http://gogo-static.yunxiangshijue.com/non-bias-system.png"/>
-    <img width="40%" src="http://gogo-static.yunxiangshijue.com/bias-system.png"/>
+    <img width="40%" src="./figures/non-bias-system.png"/>
+    <img width="40%" src="./figures/bias-system.png"/>
 </div>
 
 <div align=center>
-    <img width="40%" src="http://gogo-static.yunxiangshijue.com/non-bias-result.png"/>
-    <img width="40%" src="http://gogo-static.yunxiangshijue.com/biased-result.png"/>
+    <img width="40%" src="./figures/non-bias-result.png"/>
+    <img width="40%" src="./figures/biased-result.png"/>
 </div>
 
 
